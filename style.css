@@ -1,0 +1,118 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: #ebb88c;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+    height: 250px;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30vw;
+    font-size: 4vw;
+    padding-top: 2%;
+    color: white;
+    text-shadow: black 5px 3px;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    color:#866b59;
+    padding: 5%;
+    font-family: 'Young Serif', serif;
+
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+header img{
+    width: 100px;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 2vw;
+
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    background-color: #866b59;
+    padding: 3%;
+}
+ul li{
+background-color:black;
+padding: 7px;
+border-radius: 15%;
+
+}
+a:link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+a:visited{
+    color: white;
+}
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10%;
+    column-gap: 15%;
+    margin-left: 5%;
+}
+main{
+    background-color:#ebb88c;
+    text-align: center;
+    align-items: center;
+    font-size: 3vw;
+    height: 95vw;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    padding: 10%;
+    background-color: white;
+    border-radius: 15%;
+    font-size: 1vw;
+}
+.card img{
+    width: 175px;
+    height: 175px;
+}
+.card :hover{
+    margin: 0%;
+    width: 210px;
+    height: 210px;
+    padding: 12%;
+    border-radius: 15%;
+    background-color: #b4b4b4;
+    transition: 1s;
+}
+.card h3{
+    padding: 3%;
+}
+.btn{
+    background-color: black;
+    padding: 2%;
+    border: #ebb88c 2px;
+    border-radius: 15%;
+}
+footer{
+    padding: 3%;
+    background-color: #866b59;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
